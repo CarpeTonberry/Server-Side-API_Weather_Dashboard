@@ -21,7 +21,7 @@
         <button id="searchButton">Search</button>
     </div>
 
-    <section class="display">
+    <section id="current-forecast-container">
         <h1 class="city-name"></h1>
         <p class="temp"></p>
         <p class="wind"></p>
@@ -30,11 +30,16 @@
     </section>
 
     <container>
-        <div>5-day forecast</div>
-        <div id="five-day-forecast"></div>
+        <h2 id="five-day-forecast-title"></h2>
+        <div id="five-day-forecast-1" , class="card bg-primary text-light m-2"></div>
+        <div id="five-day-forecast-2" , class="card bg-primary text-light m-2"></div>
+        <div id="five-day-forecast-3" , class="card bg-primary text-light m-2"></div>
+        <div id="five-day-forecast-4" , class="card bg-primary text-light m-2"></div>
+        <div id="five-day-forecast-5" , class="card bg-primary text-light m-2"></div>
     </container>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/script/script.js"></script>
 </body>
 
